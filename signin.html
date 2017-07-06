@@ -5,15 +5,15 @@
 </head>
 <body>
 
-<form>
-user name:<input type="text" id='txt' value="">
+<form action="/TestGit/check.php">
+user name:<input type="text" name='txt' value="">
 password :<input type="password" name="pswd">
 <input type="submit" name="b" onclick="val()">
 
 <script>
 function val() {
     
-    c=document.getElementById('txt');
+    c=document.getElementByTagName('txt');
     
     p=document.getElementByTagName('pswd');
     if(p===null)
