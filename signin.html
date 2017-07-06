@@ -4,11 +4,30 @@
 	<title> sign in page</title>
 </head>
 <body>
-</body>
+
 <form>
-user name:<input type="text" name="txt">
+user name:<input type="text" id='txt' value="">
 password :<input type="password" name="pswd">
-<input type="submit" name="b">
+<input type="submit" name="b" onclick="val()">
+
+<script>
+function val() {
+    
+    c=document.getElementById('txt');
+    
+    p=document.getElementByTagName('pswd');
+    if(p===null)
+    {
+    	alert("enter password");
+    }
+    if(c===null)
+    {
+    	alert ("enter username");
+
+    }
+    alert("hi");
+}
+</script>
 </form>
 </body>
 </html>
