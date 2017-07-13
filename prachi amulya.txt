@@ -1,2 +1,7 @@
 fghhvdk
+<<<<<<< HEAD
 Yayyy! It worked !
+=======
+
+hi prachi
+>>>>>>> 4f7c6fcf2662b492f1bc40f48548a59ebe6b180d
